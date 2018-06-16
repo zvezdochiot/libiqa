@@ -16,8 +16,8 @@ BUILD:
     - Change directories into the root of the IQA branch you want to build.
     - Type `make DEBUG=1` for a debug build, or `make` for a release build.
       The output is a static library 'libiqa.a'.
-    - Type `make test` (or `make test`) to build the unit tests.
-    - Type `make clean` (or `make clean`) to delete all build
+    - Type `make test` (or `make test DEBUG=1`) to build the unit tests.
+    - Type `make clean` (or `make clean DEBUG=1`) to delete all build
       artifacts.
     - To run the tests, `cd` to the build/<configuration> directory and type
       `./test`.
