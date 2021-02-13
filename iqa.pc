@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: iqa
+Description: Image Quality Assessment (IQA)
+Version: 1.1.2
+Libs: -L${libdir} -liqa -lm
+Cflags: -I${includedir}
